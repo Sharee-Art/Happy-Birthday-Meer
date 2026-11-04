@@ -743,3 +743,24 @@ body {
     font-size: 3rem;
   }
 }
+/* Mobile Fix */
+@media (max-width: 600px) {
+  .profile-picture {
+    width: 180px !important;
+    height: 180px !important;
+  }
+  .wish-hbd {
+    font-size: 28px !important;
+    text-align: center !important;
+  }
+  h3, h5, p {
+    text-align: center !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    word-wrap: break-word !important;
+  }
+  .idea-1, .idea-2, .idea-3, .idea-4, .idea-5, .idea-6 {
+    font-size: 18px !important;
+    text-align: center !important;
+  }
+}
